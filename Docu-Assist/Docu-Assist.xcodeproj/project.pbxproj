@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2945551DCEB4E300BB1D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2945541DCEB4E300BB1D3A /* AppDelegate.swift */; };
+		6D2945571DCEB4E300BB1D3A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2945561DCEB4E300BB1D3A /* RootViewController.swift */; };
+		6D2945591DCEB4E300BB1D3A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2945581DCEB4E300BB1D3A /* DataViewController.swift */; };
+		6D29455B1DCEB4E300BB1D3A /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29455A1DCEB4E300BB1D3A /* ModelController.swift */; };
+		6D29455E1DCEB4E300BB1D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D29455C1DCEB4E300BB1D3A /* Main.storyboard */; };
+		6D2945601DCEB4E300BB1D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D29455F1DCEB4E300BB1D3A /* Assets.xcassets */; };
+		6D2945631DCEB4E300BB1D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2945611DCEB4E300BB1D3A /* LaunchScreen.storyboard */; };
+		6D29456E1DCEB4E300BB1D3A /* Docu_AssistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D29456D1DCEB4E300BB1D3A /* Docu_AssistTests.swift */; };
+		6D7B12EC1DD983830020F2B1 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7B12EA1DD983830020F2B1 /* checked.png */; };
+		6D7B12ED1DD983830020F2B1 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7B12EB1DD983830020F2B1 /* unchecked.png */; };
+		6D7B13701DD9AA120020F2B1 /* COPD1ImagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13441DD9AA120020F2B1 /* COPD1ImagViewController.swift */; };
+		6D7B13711DD9AA120020F2B1 /* COPD1LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13451DD9AA120020F2B1 /* COPD1LabViewController.swift */; };
+		6D7B13721DD9AA120020F2B1 /* COPD1MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13461DD9AA120020F2B1 /* COPD1MedViewController.swift */; };
+		6D7B13731DD9AA120020F2B1 /* COPD1PhysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13471DD9AA120020F2B1 /* COPD1PhysViewController.swift */; };
+		6D7B13741DD9AA120020F2B1 /* COPD1ProcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13481DD9AA120020F2B1 /* COPD1ProcViewController.swift */; };
+		6D7B13751DD9AA120020F2B1 /* COPD1RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13491DD9AA120020F2B1 /* COPD1RewardsViewController.swift */; };
+		6D7B13771DD9AA120020F2B1 /* COPD2etcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B134B1DD9AA120020F2B1 /* COPD2etcViewController.swift */; };
+		6D7B13781DD9AA120020F2B1 /* COPD2ImagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B134C1DD9AA120020F2B1 /* COPD2ImagViewController.swift */; };
+		6D7B13791DD9AA120020F2B1 /* COPD2LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B134D1DD9AA120020F2B1 /* COPD2LabViewController.swift */; };
+		6D7B137A1DD9AA120020F2B1 /* COPD2MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B134E1DD9AA120020F2B1 /* COPD2MedViewController.swift */; };
+		6D7B137B1DD9AA120020F2B1 /* COPD2NurseCommViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B134F1DD9AA120020F2B1 /* COPD2NurseCommViewController.swift */; };
+		6D7B137C1DD9AA120020F2B1 /* COPD2PhysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13501DD9AA120020F2B1 /* COPD2PhysViewController.swift */; };
+		6D7B137D1DD9AA120020F2B1 /* COPD2ProcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13511DD9AA120020F2B1 /* COPD2ProcViewController.swift */; };
+		6D7B137E1DD9AA120020F2B1 /* COPD2RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13521DD9AA120020F2B1 /* COPD2RewardsViewController.swift */; };
+		6D7B137F1DD9AA120020F2B1 /* COPD2SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13531DD9AA120020F2B1 /* COPD2SymptomsViewController.swift */; };
+		6D7B13801DD9AA120020F2B1 /* COPD3etcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13541DD9AA120020F2B1 /* COPD3etcViewController.swift */; };
+		6D7B13811DD9AA120020F2B1 /* COPD3ImagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13551DD9AA120020F2B1 /* COPD3ImagViewController.swift */; };
+		6D7B13821DD9AA120020F2B1 /* COPD3LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13561DD9AA120020F2B1 /* COPD3LabViewController.swift */; };
+		6D7B13831DD9AA120020F2B1 /* COPD3MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13571DD9AA120020F2B1 /* COPD3MedViewController.swift */; };
+		6D7B13841DD9AA120020F2B1 /* COPD3NurseCommViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13581DD9AA120020F2B1 /* COPD3NurseCommViewController.swift */; };
+		6D7B13851DD9AA120020F2B1 /* COPD3PhysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13591DD9AA120020F2B1 /* COPD3PhysViewController.swift */; };
+		6D7B13861DD9AA120020F2B1 /* COPD3ProcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B135A1DD9AA120020F2B1 /* COPD3ProcViewController.swift */; };
+		6D7B13871DD9AA120020F2B1 /* COPD3RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B135B1DD9AA120020F2B1 /* COPD3RewardsViewController.swift */; };
+		6D7B13881DD9AA120020F2B1 /* COPD3SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B135C1DD9AA120020F2B1 /* COPD3SymptomsViewController.swift */; };
+		6D7B13891DD9AA120020F2B1 /* COPD4etcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B135D1DD9AA120020F2B1 /* COPD4etcViewController.swift */; };
+		6D7B138A1DD9AA120020F2B1 /* COPD4ImagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B135E1DD9AA120020F2B1 /* COPD4ImagViewController.swift */; };
+		6D7B138B1DD9AA120020F2B1 /* COPD4LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B135F1DD9AA120020F2B1 /* COPD4LabViewController.swift */; };
+		6D7B138C1DD9AA120020F2B1 /* COPD4MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13601DD9AA120020F2B1 /* COPD4MedViewController.swift */; };
+		6D7B138D1DD9AA120020F2B1 /* COPD4NurseCommViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13611DD9AA120020F2B1 /* COPD4NurseCommViewController.swift */; };
+		6D7B138E1DD9AA120020F2B1 /* COPD4PhysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13621DD9AA120020F2B1 /* COPD4PhysViewController.swift */; };
+		6D7B138F1DD9AA120020F2B1 /* COPD4ProcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13631DD9AA120020F2B1 /* COPD4ProcViewController.swift */; };
+		6D7B13901DD9AA120020F2B1 /* COPD4RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13641DD9AA120020F2B1 /* COPD4RewardsViewController.swift */; };
+		6D7B13911DD9AA120020F2B1 /* COPD4SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13651DD9AA120020F2B1 /* COPD4SymptomsViewController.swift */; };
+		6D7B13921DD9AA120020F2B1 /* COPD5etcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13661DD9AA120020F2B1 /* COPD5etcViewController.swift */; };
+		6D7B13931DD9AA120020F2B1 /* COPD5ImagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13671DD9AA120020F2B1 /* COPD5ImagViewController.swift */; };
+		6D7B13941DD9AA120020F2B1 /* COPD5LabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13681DD9AA120020F2B1 /* COPD5LabViewController.swift */; };
+		6D7B13951DD9AA120020F2B1 /* COPD5MedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13691DD9AA120020F2B1 /* COPD5MedViewController.swift */; };
+		6D7B13961DD9AA120020F2B1 /* COPD5NurseCommViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B136A1DD9AA120020F2B1 /* COPD5NurseCommViewController.swift */; };
+		6D7B13971DD9AA120020F2B1 /* COPD5PhysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B136B1DD9AA120020F2B1 /* COPD5PhysViewController.swift */; };
+		6D7B13981DD9AA120020F2B1 /* COPD5ProcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B136C1DD9AA120020F2B1 /* COPD5ProcViewController.swift */; };
+		6D7B13991DD9AA120020F2B1 /* COPD5RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B136D1DD9AA120020F2B1 /* COPD5RewardsViewController.swift */; };
+		6D7B139A1DD9AA120020F2B1 /* COPD5SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B136E1DD9AA120020F2B1 /* COPD5SymptomsViewController.swift */; };
+		6D7B139B1DD9AA120020F2B1 /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B136F1DD9AA120020F2B1 /* DiagnosisViewController.swift */; };
+		6D7B139F1DD9D0A70020F2B1 /* COPD1SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B139E1DD9D0A70020F2B1 /* COPD1SymptomsViewController.swift */; };
+		6D7B13A11DDC4FEE0020F2B1 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13A01DDC4FEE0020F2B1 /* LeaderboardViewController.swift */; };
+		6D7B13A31DDC55840020F2B1 /* OverallRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B13A21DDC55840020F2B1 /* OverallRewardsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D29456A1DCEB4E300BB1D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2945491DCEB4E300BB1D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2945501DCEB4E300BB1D3A;
+			remoteInfo = "Docu-Assist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D1341921DCFA05000638BAA /* Docu-Assist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Docu-Assist.entitlements"; sourceTree = "<group>"; };
+		6D2945511DCEB4E300BB1D3A /* Docu-Assist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Docu-Assist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2945541DCEB4E300BB1D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D2945561DCEB4E300BB1D3A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6D2945581DCEB4E300BB1D3A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		6D29455A1DCEB4E300BB1D3A /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		6D29455D1DCEB4E300BB1D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D29455F1DCEB4E300BB1D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D2945621DCEB4E300BB1D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D2945641DCEB4E300BB1D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2945691DCEB4E300BB1D3A /* Docu-AssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Docu-AssistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D29456D1DCEB4E300BB1D3A /* Docu_AssistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Docu_AssistTests.swift; sourceTree = "<group>"; };
+		6D29456F1DCEB4E400BB1D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7B12EA1DD983830020F2B1 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checked.png; path = Assets.xcassets/checked.png; sourceTree = "<group>"; };
+		6D7B12EB1DD983830020F2B1 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unchecked.png; path = Assets.xcassets/unchecked.png; sourceTree = "<group>"; };
+		6D7B13441DD9AA120020F2B1 /* COPD1ImagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD1ImagViewController.swift; sourceTree = "<group>"; };
+		6D7B13451DD9AA120020F2B1 /* COPD1LabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD1LabViewController.swift; sourceTree = "<group>"; };
+		6D7B13461DD9AA120020F2B1 /* COPD1MedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD1MedViewController.swift; sourceTree = "<group>"; };
+		6D7B13471DD9AA120020F2B1 /* COPD1PhysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD1PhysViewController.swift; sourceTree = "<group>"; };
+		6D7B13481DD9AA120020F2B1 /* COPD1ProcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD1ProcViewController.swift; sourceTree = "<group>"; };
+		6D7B13491DD9AA120020F2B1 /* COPD1RewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD1RewardsViewController.swift; sourceTree = "<group>"; };
+		6D7B134B1DD9AA120020F2B1 /* COPD2etcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2etcViewController.swift; path = "Docu-Assist/COPD2etcViewController.swift"; sourceTree = "<group>"; };
+		6D7B134C1DD9AA120020F2B1 /* COPD2ImagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2ImagViewController.swift; path = "Docu-Assist/COPD2ImagViewController.swift"; sourceTree = "<group>"; };
+		6D7B134D1DD9AA120020F2B1 /* COPD2LabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2LabViewController.swift; path = "Docu-Assist/COPD2LabViewController.swift"; sourceTree = "<group>"; };
+		6D7B134E1DD9AA120020F2B1 /* COPD2MedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2MedViewController.swift; path = "Docu-Assist/COPD2MedViewController.swift"; sourceTree = "<group>"; };
+		6D7B134F1DD9AA120020F2B1 /* COPD2NurseCommViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2NurseCommViewController.swift; path = "Docu-Assist/COPD2NurseCommViewController.swift"; sourceTree = "<group>"; };
+		6D7B13501DD9AA120020F2B1 /* COPD2PhysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2PhysViewController.swift; path = "Docu-Assist/COPD2PhysViewController.swift"; sourceTree = "<group>"; };
+		6D7B13511DD9AA120020F2B1 /* COPD2ProcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2ProcViewController.swift; path = "Docu-Assist/COPD2ProcViewController.swift"; sourceTree = "<group>"; };
+		6D7B13521DD9AA120020F2B1 /* COPD2RewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD2RewardsViewController.swift; path = "Docu-Assist/COPD2RewardsViewController.swift"; sourceTree = "<group>"; };
+		6D7B13531DD9AA120020F2B1 /* COPD2SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD2SymptomsViewController.swift; sourceTree = "<group>"; };
+		6D7B13541DD9AA120020F2B1 /* COPD3etcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3etcViewController.swift; path = "Docu-Assist/COPD3etcViewController.swift"; sourceTree = "<group>"; };
+		6D7B13551DD9AA120020F2B1 /* COPD3ImagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3ImagViewController.swift; path = "Docu-Assist/COPD3ImagViewController.swift"; sourceTree = "<group>"; };
+		6D7B13561DD9AA120020F2B1 /* COPD3LabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3LabViewController.swift; path = "Docu-Assist/COPD3LabViewController.swift"; sourceTree = "<group>"; };
+		6D7B13571DD9AA120020F2B1 /* COPD3MedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3MedViewController.swift; path = "Docu-Assist/COPD3MedViewController.swift"; sourceTree = "<group>"; };
+		6D7B13581DD9AA120020F2B1 /* COPD3NurseCommViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3NurseCommViewController.swift; path = "Docu-Assist/COPD3NurseCommViewController.swift"; sourceTree = "<group>"; };
+		6D7B13591DD9AA120020F2B1 /* COPD3PhysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3PhysViewController.swift; path = "Docu-Assist/COPD3PhysViewController.swift"; sourceTree = "<group>"; };
+		6D7B135A1DD9AA120020F2B1 /* COPD3ProcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3ProcViewController.swift; path = "Docu-Assist/COPD3ProcViewController.swift"; sourceTree = "<group>"; };
+		6D7B135B1DD9AA120020F2B1 /* COPD3RewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3RewardsViewController.swift; path = "Docu-Assist/COPD3RewardsViewController.swift"; sourceTree = "<group>"; };
+		6D7B135C1DD9AA120020F2B1 /* COPD3SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD3SymptomsViewController.swift; path = "Docu-Assist/COPD3SymptomsViewController.swift"; sourceTree = "<group>"; };
+		6D7B135D1DD9AA120020F2B1 /* COPD4etcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4etcViewController.swift; path = "Docu-Assist/COPD4etcViewController.swift"; sourceTree = "<group>"; };
+		6D7B135E1DD9AA120020F2B1 /* COPD4ImagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4ImagViewController.swift; path = "Docu-Assist/COPD4ImagViewController.swift"; sourceTree = "<group>"; };
+		6D7B135F1DD9AA120020F2B1 /* COPD4LabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4LabViewController.swift; path = "Docu-Assist/COPD4LabViewController.swift"; sourceTree = "<group>"; };
+		6D7B13601DD9AA120020F2B1 /* COPD4MedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4MedViewController.swift; path = "Docu-Assist/COPD4MedViewController.swift"; sourceTree = "<group>"; };
+		6D7B13611DD9AA120020F2B1 /* COPD4NurseCommViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4NurseCommViewController.swift; path = "Docu-Assist/COPD4NurseCommViewController.swift"; sourceTree = "<group>"; };
+		6D7B13621DD9AA120020F2B1 /* COPD4PhysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4PhysViewController.swift; path = "Docu-Assist/COPD4PhysViewController.swift"; sourceTree = "<group>"; };
+		6D7B13631DD9AA120020F2B1 /* COPD4ProcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4ProcViewController.swift; path = "Docu-Assist/COPD4ProcViewController.swift"; sourceTree = "<group>"; };
+		6D7B13641DD9AA120020F2B1 /* COPD4RewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4RewardsViewController.swift; path = "Docu-Assist/COPD4RewardsViewController.swift"; sourceTree = "<group>"; };
+		6D7B13651DD9AA120020F2B1 /* COPD4SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD4SymptomsViewController.swift; path = "Docu-Assist/COPD4SymptomsViewController.swift"; sourceTree = "<group>"; };
+		6D7B13661DD9AA120020F2B1 /* COPD5etcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5etcViewController.swift; path = "Docu-Assist/COPD5etcViewController.swift"; sourceTree = "<group>"; };
+		6D7B13671DD9AA120020F2B1 /* COPD5ImagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5ImagViewController.swift; path = "Docu-Assist/COPD5ImagViewController.swift"; sourceTree = "<group>"; };
+		6D7B13681DD9AA120020F2B1 /* COPD5LabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5LabViewController.swift; path = "Docu-Assist/COPD5LabViewController.swift"; sourceTree = "<group>"; };
+		6D7B13691DD9AA120020F2B1 /* COPD5MedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5MedViewController.swift; path = "Docu-Assist/COPD5MedViewController.swift"; sourceTree = "<group>"; };
+		6D7B136A1DD9AA120020F2B1 /* COPD5NurseCommViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5NurseCommViewController.swift; path = "Docu-Assist/COPD5NurseCommViewController.swift"; sourceTree = "<group>"; };
+		6D7B136B1DD9AA120020F2B1 /* COPD5PhysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5PhysViewController.swift; path = "Docu-Assist/COPD5PhysViewController.swift"; sourceTree = "<group>"; };
+		6D7B136C1DD9AA120020F2B1 /* COPD5ProcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5ProcViewController.swift; path = "Docu-Assist/COPD5ProcViewController.swift"; sourceTree = "<group>"; };
+		6D7B136D1DD9AA120020F2B1 /* COPD5RewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5RewardsViewController.swift; path = "Docu-Assist/COPD5RewardsViewController.swift"; sourceTree = "<group>"; };
+		6D7B136E1DD9AA120020F2B1 /* COPD5SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = COPD5SymptomsViewController.swift; path = "Docu-Assist/COPD5SymptomsViewController.swift"; sourceTree = "<group>"; };
+		6D7B136F1DD9AA120020F2B1 /* DiagnosisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
+		6D7B139E1DD9D0A70020F2B1 /* COPD1SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COPD1SymptomsViewController.swift; sourceTree = "<group>"; };
+		6D7B13A01DDC4FEE0020F2B1 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeaderboardViewController.swift; path = "Docu-Assist/Docu-Assist/LeaderboardViewController.swift"; sourceTree = "<group>"; };
+		6D7B13A21DDC55840020F2B1 /* OverallRewardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverallRewardsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D29454E1DCEB4E300BB1D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2945661DCEB4E300BB1D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D2945481DCEB4E300BB1D3A = {
+			isa = PBXGroup;
+			children = (
+				6D7B134B1DD9AA120020F2B1 /* COPD2etcViewController.swift */,
+				6D7B134C1DD9AA120020F2B1 /* COPD2ImagViewController.swift */,
+				6D7B134D1DD9AA120020F2B1 /* COPD2LabViewController.swift */,
+				6D7B134E1DD9AA120020F2B1 /* COPD2MedViewController.swift */,
+				6D7B134F1DD9AA120020F2B1 /* COPD2NurseCommViewController.swift */,
+				6D7B13501DD9AA120020F2B1 /* COPD2PhysViewController.swift */,
+				6D7B13511DD9AA120020F2B1 /* COPD2ProcViewController.swift */,
+				6D7B13521DD9AA120020F2B1 /* COPD2RewardsViewController.swift */,
+				6D7B13541DD9AA120020F2B1 /* COPD3etcViewController.swift */,
+				6D7B13551DD9AA120020F2B1 /* COPD3ImagViewController.swift */,
+				6D7B13561DD9AA120020F2B1 /* COPD3LabViewController.swift */,
+				6D7B13571DD9AA120020F2B1 /* COPD3MedViewController.swift */,
+				6D7B13581DD9AA120020F2B1 /* COPD3NurseCommViewController.swift */,
+				6D7B13591DD9AA120020F2B1 /* COPD3PhysViewController.swift */,
+				6D7B135A1DD9AA120020F2B1 /* COPD3ProcViewController.swift */,
+				6D7B135B1DD9AA120020F2B1 /* COPD3RewardsViewController.swift */,
+				6D7B135C1DD9AA120020F2B1 /* COPD3SymptomsViewController.swift */,
+				6D7B135D1DD9AA120020F2B1 /* COPD4etcViewController.swift */,
+				6D7B135E1DD9AA120020F2B1 /* COPD4ImagViewController.swift */,
+				6D7B135F1DD9AA120020F2B1 /* COPD4LabViewController.swift */,
+				6D7B13601DD9AA120020F2B1 /* COPD4MedViewController.swift */,
+				6D7B13611DD9AA120020F2B1 /* COPD4NurseCommViewController.swift */,
+				6D7B13621DD9AA120020F2B1 /* COPD4PhysViewController.swift */,
+				6D7B13631DD9AA120020F2B1 /* COPD4ProcViewController.swift */,
+				6D7B13641DD9AA120020F2B1 /* COPD4RewardsViewController.swift */,
+				6D7B13651DD9AA120020F2B1 /* COPD4SymptomsViewController.swift */,
+				6D7B13661DD9AA120020F2B1 /* COPD5etcViewController.swift */,
+				6D7B13671DD9AA120020F2B1 /* COPD5ImagViewController.swift */,
+				6D7B13681DD9AA120020F2B1 /* COPD5LabViewController.swift */,
+				6D7B13691DD9AA120020F2B1 /* COPD5MedViewController.swift */,
+				6D7B136A1DD9AA120020F2B1 /* COPD5NurseCommViewController.swift */,
+				6D7B136B1DD9AA120020F2B1 /* COPD5PhysViewController.swift */,
+				6D7B136C1DD9AA120020F2B1 /* COPD5ProcViewController.swift */,
+				6D7B136D1DD9AA120020F2B1 /* COPD5RewardsViewController.swift */,
+				6D7B136E1DD9AA120020F2B1 /* COPD5SymptomsViewController.swift */,
+				6D2945531DCEB4E300BB1D3A /* Docu-Assist */,
+				6D29456C1DCEB4E300BB1D3A /* Docu-AssistTests */,
+				6D2945521DCEB4E300BB1D3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2945521DCEB4E300BB1D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2945511DCEB4E300BB1D3A /* Docu-Assist.app */,
+				6D2945691DCEB4E300BB1D3A /* Docu-AssistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2945531DCEB4E300BB1D3A /* Docu-Assist */ = {
+			isa = PBXGroup;
+			children = (
+				6D1341921DCFA05000638BAA /* Docu-Assist.entitlements */,
+				6D2945541DCEB4E300BB1D3A /* AppDelegate.swift */,
+				6D2945561DCEB4E300BB1D3A /* RootViewController.swift */,
+				6D2945581DCEB4E300BB1D3A /* DataViewController.swift */,
+				6D29455A1DCEB4E300BB1D3A /* ModelController.swift */,
+				6D7B136F1DD9AA120020F2B1 /* DiagnosisViewController.swift */,
+				6D29455C1DCEB4E300BB1D3A /* Main.storyboard */,
+				6D7B13A21DDC55840020F2B1 /* OverallRewardsViewController.swift */,
+				6D7B13A01DDC4FEE0020F2B1 /* LeaderboardViewController.swift */,
+				6D7B13531DD9AA120020F2B1 /* COPD2SymptomsViewController.swift */,
+				6D7B139E1DD9D0A70020F2B1 /* COPD1SymptomsViewController.swift */,
+				6D7B13471DD9AA120020F2B1 /* COPD1PhysViewController.swift */,
+				6D7B13451DD9AA120020F2B1 /* COPD1LabViewController.swift */,
+				6D7B13441DD9AA120020F2B1 /* COPD1ImagViewController.swift */,
+				6D7B13481DD9AA120020F2B1 /* COPD1ProcViewController.swift */,
+				6D7B13461DD9AA120020F2B1 /* COPD1MedViewController.swift */,
+				6D7B13491DD9AA120020F2B1 /* COPD1RewardsViewController.swift */,
+				6D29455F1DCEB4E300BB1D3A /* Assets.xcassets */,
+				6D7B12EB1DD983830020F2B1 /* unchecked.png */,
+				6D7B12EA1DD983830020F2B1 /* checked.png */,
+				6D2945611DCEB4E300BB1D3A /* LaunchScreen.storyboard */,
+				6D2945641DCEB4E300BB1D3A /* Info.plist */,
+			);
+			path = "Docu-Assist";
+			sourceTree = "<group>";
+		};
+		6D29456C1DCEB4E300BB1D3A /* Docu-AssistTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D29456D1DCEB4E300BB1D3A /* Docu_AssistTests.swift */,
+				6D29456F1DCEB4E400BB1D3A /* Info.plist */,
+			);
+			path = "Docu-AssistTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2945501DCEB4E300BB1D3A /* Docu-Assist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2945721DCEB4E400BB1D3A /* Build configuration list for PBXNativeTarget "Docu-Assist" */;
+			buildPhases = (
+				6D29454D1DCEB4E300BB1D3A /* Sources */,
+				6D29454E1DCEB4E300BB1D3A /* Frameworks */,
+				6D29454F1DCEB4E300BB1D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Docu-Assist";
+			productName = "Docu-Assist";
+			productReference = 6D2945511DCEB4E300BB1D3A /* Docu-Assist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D2945681DCEB4E300BB1D3A /* Docu-AssistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2945751DCEB4E400BB1D3A /* Build configuration list for PBXNativeTarget "Docu-AssistTests" */;
+			buildPhases = (
+				6D2945651DCEB4E300BB1D3A /* Sources */,
+				6D2945661DCEB4E300BB1D3A /* Frameworks */,
+				6D2945671DCEB4E300BB1D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D29456B1DCEB4E300BB1D3A /* PBXTargetDependency */,
+			);
+			name = "Docu-AssistTests";
+			productName = "Docu-AssistTests";
+			productReference = 6D2945691DCEB4E300BB1D3A /* Docu-AssistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D2945491DCEB4E300BB1D3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brigitte Broszus";
+				TargetAttributes = {
+					6D2945501DCEB4E300BB1D3A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9BF34S5J4V;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					6D2945681DCEB4E300BB1D3A = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 6D2945501DCEB4E300BB1D3A;
+					};
+				};
+			};
+			buildConfigurationList = 6D29454C1DCEB4E300BB1D3A /* Build configuration list for PBXProject "Docu-Assist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D2945481DCEB4E300BB1D3A;
+			productRefGroup = 6D2945521DCEB4E300BB1D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2945501DCEB4E300BB1D3A /* Docu-Assist */,
+				6D2945681DCEB4E300BB1D3A /* Docu-AssistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D29454F1DCEB4E300BB1D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2945631DCEB4E300BB1D3A /* LaunchScreen.storyboard in Resources */,
+				6D7B12EC1DD983830020F2B1 /* checked.png in Resources */,
+				6D2945601DCEB4E300BB1D3A /* Assets.xcassets in Resources */,
+				6D29455E1DCEB4E300BB1D3A /* Main.storyboard in Resources */,
+				6D7B12ED1DD983830020F2B1 /* unchecked.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2945671DCEB4E300BB1D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D29454D1DCEB4E300BB1D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2945571DCEB4E300BB1D3A /* RootViewController.swift in Sources */,
+				6D7B13951DD9AA120020F2B1 /* COPD5MedViewController.swift in Sources */,
+				6D7B138F1DD9AA120020F2B1 /* COPD4ProcViewController.swift in Sources */,
+				6D7B13961DD9AA120020F2B1 /* COPD5NurseCommViewController.swift in Sources */,
+				6D7B138C1DD9AA120020F2B1 /* COPD4MedViewController.swift in Sources */,
+				6D7B137B1DD9AA120020F2B1 /* COPD2NurseCommViewController.swift in Sources */,
+				6D7B13871DD9AA120020F2B1 /* COPD3RewardsViewController.swift in Sources */,
+				6D29455B1DCEB4E300BB1D3A /* ModelController.swift in Sources */,
+				6D7B139B1DD9AA120020F2B1 /* DiagnosisViewController.swift in Sources */,
+				6D7B13801DD9AA120020F2B1 /* COPD3etcViewController.swift in Sources */,
+				6D7B139F1DD9D0A70020F2B1 /* COPD1SymptomsViewController.swift in Sources */,
+				6D7B13811DD9AA120020F2B1 /* COPD3ImagViewController.swift in Sources */,
+				6D7B13991DD9AA120020F2B1 /* COPD5RewardsViewController.swift in Sources */,
+				6D7B13931DD9AA120020F2B1 /* COPD5ImagViewController.swift in Sources */,
+				6D7B13981DD9AA120020F2B1 /* COPD5ProcViewController.swift in Sources */,
+				6D7B137E1DD9AA120020F2B1 /* COPD2RewardsViewController.swift in Sources */,
+				6D7B13941DD9AA120020F2B1 /* COPD5LabViewController.swift in Sources */,
+				6D7B137D1DD9AA120020F2B1 /* COPD2ProcViewController.swift in Sources */,
+				6D7B13741DD9AA120020F2B1 /* COPD1ProcViewController.swift in Sources */,
+				6D7B13791DD9AA120020F2B1 /* COPD2LabViewController.swift in Sources */,
+				6D7B13891DD9AA120020F2B1 /* COPD4etcViewController.swift in Sources */,
+				6D7B137A1DD9AA120020F2B1 /* COPD2MedViewController.swift in Sources */,
+				6D7B13731DD9AA120020F2B1 /* COPD1PhysViewController.swift in Sources */,
+				6D7B13861DD9AA120020F2B1 /* COPD3ProcViewController.swift in Sources */,
+				6D7B13721DD9AA120020F2B1 /* COPD1MedViewController.swift in Sources */,
+				6D7B13821DD9AA120020F2B1 /* COPD3LabViewController.swift in Sources */,
+				6D7B138A1DD9AA120020F2B1 /* COPD4ImagViewController.swift in Sources */,
+				6D7B13831DD9AA120020F2B1 /* COPD3MedViewController.swift in Sources */,
+				6D7B13711DD9AA120020F2B1 /* COPD1LabViewController.swift in Sources */,
+				6D7B137C1DD9AA120020F2B1 /* COPD2PhysViewController.swift in Sources */,
+				6D7B13851DD9AA120020F2B1 /* COPD3PhysViewController.swift in Sources */,
+				6D7B13771DD9AA120020F2B1 /* COPD2etcViewController.swift in Sources */,
+				6D7B138D1DD9AA120020F2B1 /* COPD4NurseCommViewController.swift in Sources */,
+				6D7B13911DD9AA120020F2B1 /* COPD4SymptomsViewController.swift in Sources */,
+				6D7B13901DD9AA120020F2B1 /* COPD4RewardsViewController.swift in Sources */,
+				6D7B13A11DDC4FEE0020F2B1 /* LeaderboardViewController.swift in Sources */,
+				6D7B137F1DD9AA120020F2B1 /* COPD2SymptomsViewController.swift in Sources */,
+				6D7B13921DD9AA120020F2B1 /* COPD5etcViewController.swift in Sources */,
+				6D7B138E1DD9AA120020F2B1 /* COPD4PhysViewController.swift in Sources */,
+				6D7B13971DD9AA120020F2B1 /* COPD5PhysViewController.swift in Sources */,
+				6D7B13701DD9AA120020F2B1 /* COPD1ImagViewController.swift in Sources */,
+				6D7B13881DD9AA120020F2B1 /* COPD3SymptomsViewController.swift in Sources */,
+				6D2945591DCEB4E300BB1D3A /* DataViewController.swift in Sources */,
+				6D7B13A31DDC55840020F2B1 /* OverallRewardsViewController.swift in Sources */,
+				6D7B13781DD9AA120020F2B1 /* COPD2ImagViewController.swift in Sources */,
+				6D7B13841DD9AA120020F2B1 /* COPD3NurseCommViewController.swift in Sources */,
+				6D7B13751DD9AA120020F2B1 /* COPD1RewardsViewController.swift in Sources */,
+				6D2945551DCEB4E300BB1D3A /* AppDelegate.swift in Sources */,
+				6D7B138B1DD9AA120020F2B1 /* COPD4LabViewController.swift in Sources */,
+				6D7B139A1DD9AA120020F2B1 /* COPD5SymptomsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2945651DCEB4E300BB1D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D29456E1DCEB4E300BB1D3A /* Docu_AssistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D29456B1DCEB4E300BB1D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2945501DCEB4E300BB1D3A /* Docu-Assist */;
+			targetProxy = 6D29456A1DCEB4E300BB1D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D29455C1DCEB4E300BB1D3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D29455D1DCEB4E300BB1D3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2945611DCEB4E300BB1D3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2945621DCEB4E300BB1D3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2945701DCEB4E400BB1D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D2945711DCEB4E400BB1D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2945731DCEB4E400BB1D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Docu-Assist/Docu-Assist.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Docu-Assist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BB.Docu-Assist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D2945741DCEB4E400BB1D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Docu-Assist/Docu-Assist.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Docu-Assist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BB.Docu-Assist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D2945761DCEB4E400BB1D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Docu-AssistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BB.Docu-AssistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docu-Assist.app/Docu-Assist";
+			};
+			name = Debug;
+		};
+		6D2945771DCEB4E400BB1D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Docu-AssistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BB.Docu-AssistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Docu-Assist.app/Docu-Assist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D29454C1DCEB4E300BB1D3A /* Build configuration list for PBXProject "Docu-Assist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2945701DCEB4E400BB1D3A /* Debug */,
+				6D2945711DCEB4E400BB1D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2945721DCEB4E400BB1D3A /* Build configuration list for PBXNativeTarget "Docu-Assist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2945731DCEB4E400BB1D3A /* Debug */,
+				6D2945741DCEB4E400BB1D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2945751DCEB4E400BB1D3A /* Build configuration list for PBXNativeTarget "Docu-AssistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2945761DCEB4E400BB1D3A /* Debug */,
+				6D2945771DCEB4E400BB1D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D2945491DCEB4E300BB1D3A /* Project object */;
+}
